@@ -7,15 +7,17 @@ Simple Socket Chat application written in Java.
 - Simple command to quit the chat (/quit)
 
 ## Compilation
+```bash
 javac -d bin src/*.java
-
-## Run
+```
 ### Start the server
+```bash
 java -cp bin ChatServer
-
+```
 ### Start a client
+```bash
 java -cp bin ChatClient
-
+```
 ## Russian
 Простое приложение Socket Chat, написанное на Java.
 
@@ -25,11 +27,15 @@ java -cp bin ChatClient
 - Команда для выхода из чата (/quit)
 
 ## Компиляция
+```bash
 javac -d bin src/*.java
-
-## Запуск
+```
 ### Запуск сервера
+```bash
 java -cp bin ChatServer
-
+```
 ### Запуск клиента
+```bash
 java -cp bin ChatClient
+```
+
