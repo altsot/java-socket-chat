@@ -1,18 +1,35 @@
-## Getting Started
+## English
+Simple Socket Chat application written in Java.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Features
+- Real-time chat over localhost
+- Multiple clients can connect simultaneously
+- Simple command to quit the chat (/quit)
 
-## Folder Structure
+## Compilation
+javac -d bin src/*.java
 
-The workspace contains two folders by default, where:
+## Run
+### Start the server
+java -cp bin ChatServer
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Start a client
+java -cp bin ChatClient
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Russian
+Простое приложение Socket Chat, написанное на Java.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Возможности
+- Общение в реальном времени по localhost
+- Возможность подключения нескольких клиентов одновременно
+- Команда для выхода из чата (/quit)
 
-## Dependency Management
+## Компиляция
+javac -d bin src/*.java
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Запуск
+### Запуск сервера
+java -cp bin ChatServer
+
+### Запуск клиента
+java -cp bin ChatClient
